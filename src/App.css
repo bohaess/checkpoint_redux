@@ -2,24 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +24,70 @@
   to {
     transform: rotate(360deg);
   }
+}
+.btn-filter {
+  border:2px solid #fff ;
+  width:40%;
+  margin:50px 20px ;
+  padding:20px ;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app-title  {
+  margin:0px;
+  padding:25px;
+  text-shadow: 4px 7px 10px #fff
+}
+.todo {
+  border:2px solid #fff ;
+  width:150px;
+  margin:50px 20px ;
+} 
+
+.filt {
+  margin: 30px auto;
+  width: 60%;
+  /* border: 2px solid #fff; */
+  padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ 
+.filt button{
+  width: 120px;
+  padding: 10px;
+  color: #fff;
+  background: transparent;
+  border: 2px solid thistle;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+/* .filt button :hover{
+transform: translate(2px 2px);
+} */
+.add {
+  border:2px solid #fff ;
+  padding:10px ;
+  width:60% ;
+  margin :20px auto ;
+  /* display:flex; */
+}
+.btn-add {
+display:flex ;
+justify-content: space-evenly;
+margin:10px auto ;
+padding:10px
+}
+.btn-add button {
+  width: 120px;
+  padding: 10px;
+  color: #fff;
+  background: transparent;
+  border: 2px solid thistle;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
 }
